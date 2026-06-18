@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: system-ui, "Noto Sans TC", sans-serif;
+    background-color: lightblue;
+}
+
+.container {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 28px;
+}
+
+.card {
+    background: rgb(244, 168, 26);
+    padding: 10px;
+    border-radius: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    display: grid;
+    gap: 5px;
+}
+
+.artcard p {
+    margin: 0;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    background-color: lightgreen;
+}
+
+select {
+    padding: 8px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    background-color: lightgreen;
+}
+
+button {
+    width: fit-content;
+    padding: 8px 14px;
+    cursor: pointer;
+}
+
+.error {
+    color: #b91c1c;
+    font-weight: bold;
+}
+
+.layout {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.layout>* {
+    flex: 1;
+}
+
+.head {
+    text-align: center;
+}
+
+.add {
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+.delete {
+    background-color: red;
+    color: white;
+    border: none;
+}
