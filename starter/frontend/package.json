@@ -1,9 +1,13 @@
 {
+  "name": "student-c-events-frontend-starter",
   "type": "module",
+  "homepage": "https://qiujinglun.github.io/student-c-events-frontend-starter",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",
@@ -14,5 +18,7 @@
     "react-dom": "latest",
     "vite": "latest"
   },
-  "name": "student-c-events-frontend-starter"
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
 }
